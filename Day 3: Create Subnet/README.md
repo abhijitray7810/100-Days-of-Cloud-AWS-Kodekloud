@@ -1,4 +1,5 @@
 ## Steps to Create the Subnet
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/260d5eee56461364663ca3818b3a1104b6a926d8/Day%203%3A%20Create%20Subnet/Screenshot%202025-12-08%20224549.png)
 
 ### 1. Log in to the AWS Console
 

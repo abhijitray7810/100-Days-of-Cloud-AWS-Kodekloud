@@ -16,7 +16,7 @@
 * In the left sidebar, click **Your VPCs**.
 * Locate the VPC with the **Default VPC** attribute set to **Yes**.
 * Copy the **VPC ID** for this default VPC.
-* 
+* [image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/4f237bbb6cb49d019107ef4bcb187c331cb0b05b/Day%203%3A%20Create%20Subnet/Screenshot%202025-12-08%20224525.png)
 
 ### 4. Create the Subnet
 

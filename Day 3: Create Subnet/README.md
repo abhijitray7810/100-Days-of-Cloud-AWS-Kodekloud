@@ -1,15 +1,3 @@
-**Note:** Use the AWS credentials provided and ensure you operate strictly within the **us-east-1** region.
-
----
-
-## ## Prerequisites
-
-* Valid AWS Console login credentials.
-* Ensure you are working within the allowed time window.
-* Region must be set to **N. Virginia (us-east-1)**.
-
----
-
 ## Steps to Create the Subnet
 
 ### 1. Log in to the AWS Console
@@ -28,6 +16,7 @@
 * In the left sidebar, click **Your VPCs**.
 * Locate the VPC with the **Default VPC** attribute set to **Yes**.
 * Copy the **VPC ID** for this default VPC.
+* 
 
 ### 4. Create the Subnet
 

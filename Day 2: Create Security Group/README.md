@@ -17,6 +17,7 @@ Use the provided temporary AWS console credentials:
 * **Region:** `us-east-1`
 
 ---
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/acdc66766b7c1fad6c4fb39805b5cc738ef000d9/Day%202%3A%20Create%20Security%20Group/Screenshot%202025-12-08%20223029.png)
 
 ## **Steps to Create the Security Group**
 

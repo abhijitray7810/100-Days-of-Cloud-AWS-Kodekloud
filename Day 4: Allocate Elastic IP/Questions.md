@@ -2,7 +2,7 @@ The Nautilus DevOps team is strategizing the migration of a portion of their inf
 
 For this task, allocate an Elastic IP address, name it as devops-eip.
 
-
+ 
 
 Use below given AWS Credentials: (You can run the showcreds command on aws-client host to retrieve these credentials)
 

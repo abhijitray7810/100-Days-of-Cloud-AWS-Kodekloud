@@ -1,5 +1,5 @@
 # AWS EC2 Instance Migration 
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/3279dd22ca240bc14df681de9661f05d0eebdddd/Day%206%3A%20Launch%20EC2%20Instance/Screenshot%202025-12-10%20234324.png)
 
 ## Overview
 This task involves creating an EC2 instance as part of the Nautilus DevOps team's incremental AWS cloud migration strategy.

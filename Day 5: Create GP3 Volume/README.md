@@ -1,5 +1,5 @@
 # AWS EBS Volume Creation Guide
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/3bf13c2ed4feb209aa1206e592f30bef2315a0b6/Day%205%3A%20Create%20GP3%20Volume/Screenshot%202025-12-10%20224035.png)
 
 ## Task Overview
 Create an EBS volume for Nautilus DevOps team's infrastructure migration to AWS.

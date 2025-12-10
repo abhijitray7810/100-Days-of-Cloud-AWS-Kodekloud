@@ -1,5 +1,5 @@
 # AWS EC2 Stop Protection - README
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/3432073556512f8231cd0562dc7941cbda1ac354/Day%208%3A%20Enable%20Stop%20Protection%20for%20EC2%20Instance/Screenshot%202025-12-11%20000334.png)
 ![image]()
 ## Overview
 Enable stop protection for an existing EC2 instance as part of the Nautilus DevOps team's AWS migration configuration updates.

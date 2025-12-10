@@ -1,5 +1,5 @@
 # EC2 Instance Type Change Guide
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/480ec5d166126f36bdfa8dac22bbe7256e398b03/Day%207%3A%20Change%20EC2%20Instance%20Type/Screenshot%202025-12-10%20235735.png)
 
 ## Task Overview
 Change EC2 instance type from t2.micro to t2.nano for the devops-ec2 instance.

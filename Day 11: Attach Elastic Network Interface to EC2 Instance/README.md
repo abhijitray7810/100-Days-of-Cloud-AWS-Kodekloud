@@ -1,4 +1,6 @@
-# AWS ENI Attachment Task - README
+# AWS ENI Attachment Task 
+
+
 ![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/b730e566530210f8cd5dda0dcaa284ca629ca05e/Day%2011%3A%20Attach%20Elastic%20Network%20Interface%20to%20EC2%20Instance/Screenshot%202025-12-12%20211558.png)
 ## Overview
 This guide provides step-by-step instructions for attaching an Elastic Network Interface (ENI) to an EC2 instance in the AWS us-east-1 region.
@@ -13,7 +15,7 @@ This guide provides step-by-step instructions for attaching an Elastic Network I
 - AWS credentials provided (available via `showcreds` command)
 - Access to AWS Console or AWS CLI
 - Instance initialization must be completed before submission
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/14b992e92e10c497b3d1f124c17f1e9e2fa81ce4/Day%2011%3A%20Attach%20Elastic%20Network%20Interface%20to%20EC2%20Instance/Screenshot%202025-12-12%20211625.png)
 ## AWS Credentials
 ```
 Console URL: https://584135479676.signin.aws.amazon.com/console?region=us-east-1

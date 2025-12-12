@@ -1,5 +1,5 @@
 # Enable EC2 Termination Protection for nautilus-ec2
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/cf2f5576fdd9c2c2f92c7d0b1ad216c9477671d5/Day%2010%3A%20Attach%20Elastic%20IP%20to%20EC2%20Instance/Screenshot%202025-12-12%20203350.png)
 
 
 ## Overview

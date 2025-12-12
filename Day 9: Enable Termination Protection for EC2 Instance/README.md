@@ -1,5 +1,5 @@
 # Enable EC2 Termination Protection for nautilus-ec2
-![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/89614471f1341139afacb707e54626372b607248/Day%209%3A%20Enable%20Termination%20Protection%20for%20EC2%20Instance/Screenshot%202025-12-12%20202412.png)
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/ba213b449be40ac8712ba41c6747717e8a7912ff/Day%209%3A%20Enable%20Termination%20Protection%20for%20EC2%20Instance/Screenshot%202025-12-12%20205948.png)
 
 ## Overview
 This guide explains how to enable termination protection for the `nautilus-ec2` instance in the us-east-1 region.
@@ -15,7 +15,7 @@ This guide explains how to enable termination protection for the `nautilus-ec2` 
 - **Region**: us-east-1
 
 ## Method 1: Using AWS CLI
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/89614471f1341139afacb707e54626372b607248/Day%209%3A%20Enable%20Termination%20Protection%20for%20EC2%20Instance/Screenshot%202025-12-12%20202412.png)
 ### Step 1: Get the Instance ID
 ```bash
 aws ec2 describe-instances \

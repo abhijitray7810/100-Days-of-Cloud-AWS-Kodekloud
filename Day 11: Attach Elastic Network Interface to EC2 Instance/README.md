@@ -1,5 +1,5 @@
 # AWS ENI Attachment Task - README
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/b730e566530210f8cd5dda0dcaa284ca629ca05e/Day%2011%3A%20Attach%20Elastic%20Network%20Interface%20to%20EC2%20Instance/Screenshot%202025-12-12%20211558.png)
 ## Overview
 This guide provides step-by-step instructions for attaching an Elastic Network Interface (ENI) to an EC2 instance in the AWS us-east-1 region.
 

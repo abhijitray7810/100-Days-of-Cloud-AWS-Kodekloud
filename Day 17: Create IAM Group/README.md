@@ -3,7 +3,7 @@
 This document describes how to create an IAM group named **iamgroup_james** for the Nautilus DevOps team.
 
 ## Steps
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/ce21898007a56abe06c6723d68f000a1cb81cc43/Day%2017%3A%20Create%20IAM%20Group/Screenshot%202025-12-16%20004220.png)
 ### 1. Configure AWS CLI
 
 Retrieve credentials using `showcreds` on the aws-client host and configure AWS CLI:

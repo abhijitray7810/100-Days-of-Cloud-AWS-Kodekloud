@@ -3,7 +3,7 @@
 This document shows how to attach an existing IAM policy **iampolicy_kirsty** to an existing IAM user **iamuser_kirsty**.
 
 ## Steps
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/d81713f2b719a14aab45d17b36a72862c50831dd/Day%2019%3A%20Attach%20IAM%20Policy%20to%20IAM%20User/Screenshot%202025-12-16%20011059.png)
 ### 1. Configure AWS CLI
 
 Retrieve credentials using `showcreds` on the aws-client host and configure AWS CLI:

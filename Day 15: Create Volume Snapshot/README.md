@@ -1,5 +1,5 @@
 # AWS EBS Snapshot Creation – datacenter-vol
-![image]()
+
 This document describes the steps to create an Amazon EBS snapshot for an existing volume named **datacenter-vol** in the **us-east-1** region, as requested by the Nautilus DevOps team.
 
 ## Prerequisites
@@ -9,7 +9,7 @@ This document describes the steps to create an Amazon EBS snapshot for an existi
 * AWS CLI configured to use **us-east-1** region
 
 ## Steps
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/f8b09d505b3dbfde79202b09d430fc79e4c6fd7b/Day%2015%3A%20Create%20Volume%20Snapshot/Screenshot%202025-12-16%20002639.png)
 ### 1. Configure AWS CLI
 
 Ensure the AWS CLI is configured with the provided credentials and correct region:

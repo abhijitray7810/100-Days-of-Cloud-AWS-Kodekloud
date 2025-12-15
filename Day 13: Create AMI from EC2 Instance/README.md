@@ -1,5 +1,5 @@
 # Nautilus EC2 AMI Creation Guide
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/cf2c9fb5c582b0be5ddc6cd8e568073d0f74aa52/Day%2013%3A%20Create%20AMI%20from%20EC2%20Instance/Screenshot%202025-12-16%20000648.png)
 ## Overview
 This guide provides step-by-step instructions for creating an Amazon Machine Image (AMI) from an existing EC2 instance as part of the Nautilus DevOps team's incremental AWS migration strategy.
 

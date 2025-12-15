@@ -9,7 +9,7 @@ This guide provides step-by-step instructions for attaching an existing EBS volu
 - Existing EC2 instance: `nautilus-ec2`
 - Existing EBS volume: `nautilus-volume`
 - Both resources must be in the same availability zone within `us-east-1` region
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/3040c4d7efc67dc5a2ab9582a75d293dff813652/Day%2012%3A%20Attach%20Volume%20to%20EC2%20Instance/Screenshot%202025-12-15%20223749.png)
 ## AWS Credentials
 ```
 Console URL: https://022390610537.signin.aws.amazon.com/console?region=us-east-1

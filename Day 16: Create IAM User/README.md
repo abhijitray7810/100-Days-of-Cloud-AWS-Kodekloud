@@ -11,7 +11,7 @@ This document outlines the steps to create an IAM user named **iamuser_mark** in
 > Note: IAM is a global service; however, use **us-east-1** as specified when configuring AWS CLI.
 
 ## Steps
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/3f264baa9df5a769a1fc1f13d8e9cf1dea580eb1/Day%2016%3A%20Create%20IAM%20User/Screenshot%202025-12-16%20003612.png)
 ### 1. Configure AWS CLI
 
 Configure the AWS CLI with the provided credentials:

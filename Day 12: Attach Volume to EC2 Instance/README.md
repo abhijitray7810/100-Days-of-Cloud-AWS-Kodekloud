@@ -1,5 +1,5 @@
 # AWS EBS Volume Attachment Guide
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/cb3f684a3d91a031463707aabaafd0ab58e624ee/Day%2012%3A%20Attach%20Volume%20to%20EC2%20Instance/Screenshot%202025-12-15%20223725.png)
 ## Overview
 This guide provides step-by-step instructions for attaching an existing EBS volume (`nautilus-volume`) to an existing EC2 instance (`nautilus-ec2`) in the `us-east-1` region with device name `/dev/sdb`.
 

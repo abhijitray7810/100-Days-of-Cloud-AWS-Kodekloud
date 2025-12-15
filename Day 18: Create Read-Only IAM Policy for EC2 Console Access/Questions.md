@@ -1,0 +1,5 @@
+When establishing infrastructure on the AWS cloud, Identity and Access Management (IAM) is among the first and most critical services to configure. IAM facilitates the creation and management of user accounts, groups, roles, policies, and other access controls. The Nautilus DevOps team is currently in the process of configuring these resources and has outlined the following requirements.
+
+Create an IAM policy named iampolicy_ravi in us-east-1 region, it must allow read-only access to the EC2 console, i.e this policy must allow users to view all instances, AMIs, and snapshots in the Amazon EC2 console.
+
+Use below given AWS Credentials: (You can run the showcreds command on aws-client host to retrieve these credentials)

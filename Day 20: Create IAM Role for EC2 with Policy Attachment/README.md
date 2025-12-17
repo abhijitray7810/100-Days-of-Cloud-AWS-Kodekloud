@@ -6,7 +6,7 @@ Create an IAM role named `iamrole_jim` for EC2 service with an attached policy `
 ## Prerequisites
 - Access to AWS Console or AWS CLI
 - AWS Credentials provided below
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/08d5e3d70af77dedef09262250f098d18c554c57/Day%2020%3A%20Create%20IAM%20Role%20for%20EC2%20with%20Policy%20Attachment/Screenshot%202025-12-17%20191847.png)
 ## AWS Credentials
 ```
 Console URL: https://892386795191.signin.aws.amazon.com/console?region=us-east-1

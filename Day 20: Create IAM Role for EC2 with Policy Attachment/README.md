@@ -1,5 +1,5 @@
 # AWS IAM Role Setup Guide
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/ffedf09ef658c12e0ea2de855650b48d230b5b7e/Day%2020%3A%20Create%20IAM%20Role%20for%20EC2%20with%20Policy%20Attachment/Screenshot%202025-12-17%20191937.png)
 ## Objective
 Create an IAM role named `iamrole_jim` for EC2 service with an attached policy `iampolicy_jim` in the us-east-1 region.
 

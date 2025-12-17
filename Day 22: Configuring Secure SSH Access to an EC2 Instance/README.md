@@ -18,7 +18,7 @@ Valid: Wed Dec 17 14:19:50 UTC 2025 - Wed Dec 17 15:19:50 UTC 2025
 ```
 
 ## Implementation Steps
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/fe642f5273cc1e0ebf680ebc57527fb1649fd8a1/Day%2022%3A%20Configuring%20Secure%20SSH%20Access%20to%20an%20EC2%20Instance/Screenshot%202025-12-17%20201615.png)
 ### 1. Configure AWS CLI on aws-client
 ```bash
 # SSH into aws-client host

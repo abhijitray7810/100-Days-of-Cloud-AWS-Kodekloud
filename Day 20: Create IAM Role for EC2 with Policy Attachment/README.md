@@ -15,7 +15,7 @@ Password: OXcB5mW^iWx%
 Region: us-east-1
 Session Valid: Wed Dec 17 13:44:52 UTC 2025 - Wed Dec 17 14:44:52 UTC 2025
 ```
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/c7bd5816b3bcb4f65e90e9924330afafc77816bf/Day%2020%3A%20Create%20IAM%20Role%20for%20EC2%20with%20Policy%20Attachment/Screenshot%202025-12-17%20191856.png)
 ## Requirements
 1. **IAM Role Name**: `iamrole_jim`
 2. **Entity Type**: AWS Service

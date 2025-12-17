@@ -1,12 +1,12 @@
 # AWS IAM Role Setup Guide
-
+![image]()
 ## Objective
 Create an IAM role named `iamrole_jim` for EC2 service with an attached policy `iampolicy_jim` in the us-east-1 region.
 
 ## Prerequisites
 - Access to AWS Console or AWS CLI
 - AWS Credentials provided below
-
+![image]()
 ## AWS Credentials
 ```
 Console URL: https://892386795191.signin.aws.amazon.com/console?region=us-east-1
@@ -15,7 +15,7 @@ Password: OXcB5mW^iWx%
 Region: us-east-1
 Session Valid: Wed Dec 17 13:44:52 UTC 2025 - Wed Dec 17 14:44:52 UTC 2025
 ```
-
+![image]()
 ## Requirements
 1. **IAM Role Name**: `iamrole_jim`
 2. **Entity Type**: AWS Service

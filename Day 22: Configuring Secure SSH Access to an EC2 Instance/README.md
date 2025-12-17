@@ -7,7 +7,7 @@ This guide provides step-by-step instructions for setting up a new EC2 instance 
 - Access to `aws-client` host
 - AWS credentials (available via `showcreds` command)
 - AWS CLI installed on `aws-client`
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/23c2cd86ff7d8eb20e25bae68ac4659662b1d6b3/Day%2022%3A%20Configuring%20Secure%20SSH%20Access%20to%20an%20EC2%20Instance/Screenshot%202025-12-17%20201550.png)
 ## AWS Credentials
 ```
 Console URL: https://374085604821.signin.aws.amazon.com/console?region=us-east-1

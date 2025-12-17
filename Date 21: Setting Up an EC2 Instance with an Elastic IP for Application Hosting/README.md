@@ -15,7 +15,7 @@ This guide provides steps to create an EC2 instance named `nautilus-ec2` with an
 - Username: `kk_labs_user_196948`
 - Password: `DGB^p^9@ocKtStart`
 - Ensure region is set to **us-east-1**
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/95d700a4014192e0882ec74691723d0d41a13410/Date%2021%3A%20Setting%20Up%20an%20EC2%20Instance%20with%20an%20Elastic%20IP%20for%20Application%20Hosting/Screenshot%202025-12-17%20194256.png)
 ### 2. Create EC2 Instance
 - Go to EC2 Dashboard
 - Click "Launch Instance"

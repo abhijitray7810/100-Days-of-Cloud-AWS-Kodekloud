@@ -1,5 +1,5 @@
 # DevOps EC2 Instance Setup - README
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/bd0fc7a49ce87bab140143209e90661be0e31c28/Day%2022%3A%20Configuring%20Secure%20SSH%20Access%20to%20an%20EC2%20Instance/Screenshot%202025-12-17%20201533.png)
 ## Overview
 This guide provides step-by-step instructions for setting up a new EC2 instance (`devops-ec2`) with secure SSH access from the `aws-client` landing host.
 

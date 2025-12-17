@@ -7,7 +7,7 @@ This guide provides steps to create an EC2 instance named `nautilus-ec2` with an
 - AWS Account access with provided credentials
 - AWS CLI configured or AWS Console access
 - Region: `us-east-1`
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/687f7cf0bb8f3671523faee7ae207bc95262c309/Date%2021%3A%20Setting%20Up%20an%20EC2%20Instance%20with%20an%20Elastic%20IP%20for%20Application%20Hosting/Screenshot%202025-12-17%20194313.png)
 ## Steps
 
 ### 1. Login to AWS Console

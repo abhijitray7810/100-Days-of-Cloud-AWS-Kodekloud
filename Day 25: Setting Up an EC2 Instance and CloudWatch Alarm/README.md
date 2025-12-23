@@ -15,7 +15,7 @@ This document describes the steps to launch an EC2 instance and configure a Clou
 - **SNS Topic:** datacenter-sns-topic (pre-created)
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/ccbae4385ce0c38d0097cfac93f6648e5a758391/Day%2025%3A%20Setting%20Up%20an%20EC2%20Instance%20and%20CloudWatch%20Alarm/Screenshot%202025-12-23%20213854.png)
 ## 🔐 AWS Credentials
 
 Retrieve credentials on the `aws-client` host:

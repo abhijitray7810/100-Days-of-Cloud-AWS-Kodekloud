@@ -13,7 +13,7 @@ This document outlines the steps to create an EC2 instance configured as a web s
 - **Access:** HTTP (Port 80) open to the internet  
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/dce34d1fc2d50b4eca4d09f739c6b5609bc43ec7/Day%2026%3A%20Configuring%20an%20EC2%20Instance%20as%20a%20Web%20Server%20with%20Nginx/Screenshot%202025-12-23%20220142.png)
 ## 🔐 AWS Credentials
 
 On the **aws-client** host, retrieve credentials using:

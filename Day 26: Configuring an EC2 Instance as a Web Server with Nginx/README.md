@@ -3,7 +3,7 @@
 This document outlines the steps to create an EC2 instance configured as a web server using **Nginx** for the Nautilus project.
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/11bee2d79227c1b9032076146f30925170618078/Day%2026%3A%20Configuring%20an%20EC2%20Instance%20as%20a%20Web%20Server%20with%20Nginx/Screenshot%202025-12-23%20220120.png)
 ## 📌 Task Overview
 
 - **Instance Name:** datacenter-ec2  

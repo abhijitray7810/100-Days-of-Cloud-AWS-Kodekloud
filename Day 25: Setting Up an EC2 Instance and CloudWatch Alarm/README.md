@@ -23,7 +23,7 @@ Retrieve credentials on the `aws-client` host:
 ```bash
 showcreds
 ````
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/6894d684c2d0b374dfa7a06d4fe5f43d566d1c1d/Day%2025%3A%20Setting%20Up%20an%20EC2%20Instance%20and%20CloudWatch%20Alarm/Screenshot%202025-12-23%20213904.png)
 Configure AWS CLI:
 
 ```bash

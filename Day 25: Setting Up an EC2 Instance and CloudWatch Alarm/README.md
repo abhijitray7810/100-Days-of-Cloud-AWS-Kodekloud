@@ -3,7 +3,7 @@
 This document describes the steps to launch an EC2 instance and configure a CloudWatch alarm to monitor CPU utilization using AWS CLI.
 
 ---
-
+![image]()
 ## 📌 Requirements
 
 - **Region:** us-east-1
@@ -15,7 +15,7 @@ This document describes the steps to launch an EC2 instance and configure a Clou
 - **SNS Topic:** datacenter-sns-topic (pre-created)
 
 ---
-
+![image]()
 ## 🔐 AWS Credentials
 
 Retrieve credentials on the `aws-client` host:
@@ -23,7 +23,7 @@ Retrieve credentials on the `aws-client` host:
 ```bash
 showcreds
 ````
-
+![image]()
 Configure AWS CLI:
 
 ```bash

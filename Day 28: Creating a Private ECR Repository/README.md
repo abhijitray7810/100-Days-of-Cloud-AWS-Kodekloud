@@ -1,5 +1,5 @@
 ## Private Amazon ECR Setup and Docker Image Push
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/d51e902b55ce2c1276bc7f540b93abaca93543cc/Day%2028%3A%20Creating%20a%20Private%20ECR%20Repository/Screenshot%202025-12-24%20183758.png)
 ### Objective
 
 Set up a **private Amazon Elastic Container Registry (ECR)** repository, build a Docker image from an existing Dockerfile, and push the image to ECR with the `latest` tag.

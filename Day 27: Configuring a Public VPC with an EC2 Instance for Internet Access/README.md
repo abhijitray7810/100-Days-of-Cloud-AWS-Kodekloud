@@ -28,7 +28,7 @@ All resources must be created in **AWS Region: us-east-1**.
 3. Confirm the region (top-right corner) is **us-east-1**
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/4408783483fff30526a9d3b56c723018224f3c89/Day%2027%3A%20Configuring%20a%20Public%20VPC%20with%20an%20EC2%20Instance%20for%20Internet%20Access/Screenshot%202025-12-24%20181251.png)
 ## Step 2: Create a Public VPC
 
 1. Go to **VPC Dashboard**

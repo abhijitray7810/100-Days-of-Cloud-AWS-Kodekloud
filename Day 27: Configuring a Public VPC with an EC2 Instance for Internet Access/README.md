@@ -1,5 +1,5 @@
 ## Public VPC, Subnet, and EC2 Setup (datacenter-pub)
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/f83709bdfd9b76d15137b5af089701e2e2230a14/Day%2027%3A%20Configuring%20a%20Public%20VPC%20with%20an%20EC2%20Instance%20for%20Internet%20Access/Screenshot%202025-12-24%20181412.png)
 ### Objective
 
 Create a public VPC with a public subnet that automatically assigns public IPs, and launch an EC2 instance that is accessible over the internet via SSH (port 22).

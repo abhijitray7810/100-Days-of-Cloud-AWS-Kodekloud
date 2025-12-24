@@ -7,7 +7,7 @@ Create a public VPC with a public subnet that automatically assigns public IPs, 
 All resources must be created in **AWS Region: us-east-1**.
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/f643a8340f0cb454338027a49e2bdaa283d35986/Day%2027%3A%20Configuring%20a%20Public%20VPC%20with%20an%20EC2%20Instance%20for%20Internet%20Access/Screenshot%202025-12-23%20221908.png)
 ## Prerequisites
 
 * AWS Console access using the provided credentials

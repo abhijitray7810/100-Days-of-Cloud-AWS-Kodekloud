@@ -31,7 +31,7 @@ Ensure:
 * Region: `us-east-1`
 
 ---
-
+1[image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/876a046e7e30da05f6dbe082f8f457952ae952ea/Day%2028%3A%20Creating%20a%20Private%20ECR%20Repository/Screenshot%202025-12-24%20183901.png)
 ## Step 2: Create a Private ECR Repository
 
 Run the following command to create a private ECR repository named `devops-ecr`:

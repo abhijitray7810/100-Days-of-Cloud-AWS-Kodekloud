@@ -7,7 +7,7 @@ Set up a **private Amazon Elastic Container Registry (ECR)** repository, build a
 All resources are created in **AWS Region: us-east-1**.
 
 ---
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/c38dd11d5d9bfd268e77c19e32614c5c1468fe17/Day%2028%3A%20Creating%20a%20Private%20ECR%20Repository/Screenshot%202025-12-24%20183811.png)
 ## Prerequisites
 
 * Access to **aws-client host**

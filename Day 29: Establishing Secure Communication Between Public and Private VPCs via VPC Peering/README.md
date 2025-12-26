@@ -128,7 +128,7 @@ aws ec2 create-route \
 ```
 
 ### Step 3: Configure Security Groups
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/a3e34bcf9ec88279da481c4d26cc5f34e1cb645c/Day%2029%3A%20Establishing%20Secure%20Communication%20Between%20Public%20and%20Private%20VPCs%20via%20VPC%20Peering/Screenshot%202025-12-26%20123908.png)
 #### Update Private EC2 Security Group
 
 1. Navigate to EC2 Console → Security Groups

@@ -66,7 +66,7 @@ aws ec2 accept-vpc-peering-connection \
 ```
 
 ### Step 2: Configure Route Tables
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/daf30d34b64298499df30343ec0ddadb88aeb9cd/Day%2029%3A%20Establishing%20Secure%20Communication%20Between%20Public%20and%20Private%20VPCs%20via%20VPC%20Peering/Screenshot%202025-12-26%20123851.png)
 #### For Default VPC Route Table
 
 1. Navigate to VPC Console → Route Tables

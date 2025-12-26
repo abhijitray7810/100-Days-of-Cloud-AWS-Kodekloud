@@ -43,7 +43,7 @@ This guide demonstrates setting up VPC Peering between a default public VPC and 
    - **VPC (Accepter)**: Select `nautilus-private-vpc`
 4. Click "Create Peering Connection"
 5. Select the peering connection and click "Actions" → "Accept Request"
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/f32ef2b73e3ad46a87beb2b3b272665f4c75aad9/Day%2029%3A%20Establishing%20Secure%20Communication%20Between%20Public%20and%20Private%20VPCs%20via%20VPC%20Peering/Screenshot%202025-12-26%20123833.png)
 **AWS CLI Commands:**
 ```bash
 # Get VPC IDs

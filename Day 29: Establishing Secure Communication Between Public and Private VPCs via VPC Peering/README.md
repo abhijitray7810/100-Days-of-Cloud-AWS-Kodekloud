@@ -32,7 +32,7 @@ This guide demonstrates setting up VPC Peering between a default public VPC and 
 - EC2 Instance Name: `nautilus-private-ec2`
 
 ## Implementation Steps
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/147659c2b7f6dede4e1ea5ff58be93438f999515/Day%2029%3A%20Establishing%20Secure%20Communication%20Between%20Public%20and%20Private%20VPCs%20via%20VPC%20Peering/Screenshot%202025-12-26%20123817.png)
 ### Step 1: Create VPC Peering Connection
 
 1. Navigate to VPC Console → Peering Connections

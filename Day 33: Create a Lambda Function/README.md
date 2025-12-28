@@ -1,4 +1,4 @@
-![image]()
-![image]()
-![image]()
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/cb1511ac90c83f434aaa64dffeaee7c2e2222c2f/Day%2033%3A%20Create%20a%20Lambda%20Function/Screenshot%202025-12-28%20204638.png)
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/cb1511ac90c83f434aaa64dffeaee7c2e2222c2f/Day%2033%3A%20Create%20a%20Lambda%20Function/Screenshot%202025-12-28%20204705.png)
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/cb1511ac90c83f434aaa64dffeaee7c2e2222c2f/Day%2033%3A%20Create%20a%20Lambda%20Function/Screenshot%202025-12-28%20204724.png)
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/cb1511ac90c83f434aaa64dffeaee7c2e2222c2f/Day%2033%3A%20Create%20a%20Lambda%20Function/Screenshot%202025-12-28%20204735.png)

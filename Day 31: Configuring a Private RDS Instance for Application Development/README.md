@@ -4,7 +4,7 @@
 Provision a private MySQL RDS instance for the Nautilus Development Team using AWS Free Tier specifications.
 
 ## Requirements
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/2c5ed2a566909a9e4fa1377a97c0deadbae2d4b6/Day%2031%3A%20Configuring%20a%20Private%20RDS%20Instance%20for%20Application%20Development/Screenshot%202025-12-28%20183900.png)
 ### Instance Specifications
 - **Instance Name**: `nautilus-rds`
 - **Template**: Sandbox (Free Tier)

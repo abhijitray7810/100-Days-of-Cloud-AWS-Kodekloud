@@ -213,7 +213,7 @@ aws ec2 authorize-security-group-ingress \
 ```
 
 ### Step 6: Launch NAT Instance
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/97f852c766118abf88ed4658f96b2adbe6a3c1e2/Day%2030%3A%20Enable%20Internet%20Access%20for%20Private%20EC2%20using%20NAT%20Instance/Screenshot%202025-12-27%20204316.png)
 **Using AWS Console:**
 
 1. Navigate to **EC2** → **Instances** → **Launch instances**
@@ -346,7 +346,7 @@ aws ec2 create-route \
 ```
 
 ### Step 9: Verify Internet Access
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/97f852c766118abf88ed4658f96b2adbe6a3c1e2/Day%2030%3A%20Enable%20Internet%20Access%20for%20Private%20EC2%20using%20NAT%20Instance/Screenshot%202025-12-27%20204325.png)
 **Check S3 Bucket for Test File:**
 
 ```bash

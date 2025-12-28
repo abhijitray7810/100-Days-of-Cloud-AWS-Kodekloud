@@ -9,7 +9,7 @@ Enable internet access for a private EC2 instance by setting up a NAT Instance i
 - **Private EC2 Instance**: `datacenter-priv-ec2` (runs cron job to upload to S3 every minute)
 - **S3 Bucket**: `datacenter-nat-23788`
 - **Test File**: `datacenter-test.txt` (uploaded when internet access works)
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/9263947eaaa9b000271704080a83261a28bbbcab/Day%2030%3A%20Enable%20Internet%20Access%20for%20Private%20EC2%20using%20NAT%20Instance/Screenshot%202025-12-27%20204213.png)
 ## AWS Credentials
 - **Console URL**: https://059254148810.signin.aws.amazon.com/console?region=us-east-1
 - **Username**: `kk_labs_user_831262`
@@ -33,7 +33,7 @@ Private EC2 (datacenter-priv-ec2) --> S3 Bucket (datacenter-nat-23788)
 ```
 
 ## Implementation Steps
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/9263947eaaa9b000271704080a83261a28bbbcab/Day%2030%3A%20Enable%20Internet%20Access%20for%20Private%20EC2%20using%20NAT%20Instance/Screenshot%202025-12-27%20204224.png)
 ### Step 1: Gather Existing Infrastructure Information
 
 ```bash
@@ -67,7 +67,7 @@ aws ec2 describe-instances \
 ```
 
 ### Step 2: Create Public Subnet
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/9263947eaaa9b000271704080a83261a28bbbcab/Day%2030%3A%20Enable%20Internet%20Access%20for%20Private%20EC2%20using%20NAT%20Instance/Screenshot%202025-12-27%20204243.png)
 **Using AWS Console:**
 
 1. Navigate to **VPC Dashboard** → **Subnets**
@@ -125,7 +125,7 @@ aws ec2 attach-internet-gateway \
 ```
 
 ### Step 4: Create Route Table for Public Subnet
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/9263947eaaa9b000271704080a83261a28bbbcab/Day%2030%3A%20Enable%20Internet%20Access%20for%20Private%20EC2%20using%20NAT%20Instance/Screenshot%202025-12-27%20204256.png)
 **Using AWS Console:**
 
 1. Navigate to **VPC** → **Route Tables**

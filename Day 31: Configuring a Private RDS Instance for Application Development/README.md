@@ -21,7 +21,7 @@ Provision a private MySQL RDS instance for the Nautilus Development Team using A
 - **Session**: Valid until Sun Dec 28 13:43:09 UTC 2025
 
 ## Step-by-Step Implementation
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/34b44584b0900f4cf9b4db78d180cb60bcc6244e/Day%2031%3A%20Configuring%20a%20Private%20RDS%20Instance%20for%20Application%20Development/Screenshot%202025-12-28%20183922.png)
 ### Option 1: AWS Management Console
 
 1. **Login to AWS Console**

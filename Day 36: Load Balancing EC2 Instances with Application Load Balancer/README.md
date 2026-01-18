@@ -85,7 +85,7 @@ Enter the following when prompted:
 - **Security Group**: Default security group
 - **Subnets**: All subnets in default VPC
 - **Listener**: Port 80 (HTTP)
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/b0ce22f0300e9858b5305aea00dcbd5b768a6a17/Day%2036%3A%20Load%20Balancing%20EC2%20Instances%20with%20Application%20Load%20Balancer/Screenshot%202026-01-18%20194518.png)
 ### 5. Target Group (devops-tg)
 - **Name**: devops-tg
 - **Port**: 80

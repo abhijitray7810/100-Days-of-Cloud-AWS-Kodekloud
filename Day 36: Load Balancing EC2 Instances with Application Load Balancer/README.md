@@ -99,7 +99,7 @@ Enter the following when prompted:
 ### 6. Kinesis Data Stream (nautilus-stream)
 - **Shard Count**: 1
 - **Retention**: 24 hours
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/3f213160953629699c4ca5933ae327d29155293e/Day%2036%3A%20Load%20Balancing%20EC2%20Instances%20with%20Application%20Load%20Balancer/Screenshot%202026-01-18%20194602.png)
 ### 7. SNS Topic (nautilus-notifications)
 - **Name**: nautilus-notifications
 

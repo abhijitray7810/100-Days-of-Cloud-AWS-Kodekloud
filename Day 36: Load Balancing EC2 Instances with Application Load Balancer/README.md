@@ -69,7 +69,7 @@ Enter the following when prompted:
 ### 2. Default Security Group (Modified)
 - **Purpose**: Attached to ALB
 - **Added Rule**: Port 80 (HTTP) from Internet (0.0.0.0/0)
-
+![image]()
 ### 3. EC2 Instance (devops-ec2)
 - **Name**: devops-ec2
 - **AMI**: Latest Ubuntu 22.04 LTS
@@ -85,7 +85,7 @@ Enter the following when prompted:
 - **Security Group**: Default security group
 - **Subnets**: All subnets in default VPC
 - **Listener**: Port 80 (HTTP)
-
+![image]()
 ### 5. Target Group (devops-tg)
 - **Name**: devops-tg
 - **Port**: 80
@@ -99,12 +99,12 @@ Enter the following when prompted:
 ### 6. Kinesis Data Stream (nautilus-stream)
 - **Shard Count**: 1
 - **Retention**: 24 hours
-
+![image]()
 ### 7. SNS Topic (nautilus-notifications)
 - **Name**: nautilus-notifications
 
 ## Deployment Steps
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/1e2136f09150cb5c3eb93a804500cec2f2144c58/Day%2036%3A%20Load%20Balancing%20EC2%20Instances%20with%20Application%20Load%20Balancer/Screenshot%202026-01-18%20194504.png)
 ### Step 1: Navigate to Terraform Directory
 
 ```bash

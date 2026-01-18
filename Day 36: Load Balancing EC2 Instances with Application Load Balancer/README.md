@@ -69,7 +69,7 @@ Enter the following when prompted:
 ### 2. Default Security Group (Modified)
 - **Purpose**: Attached to ALB
 - **Added Rule**: Port 80 (HTTP) from Internet (0.0.0.0/0)
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/2ecc5412a5187d53aa79e0c27df86a2fa4f42ac9/Day%2036%3A%20Load%20Balancing%20EC2%20Instances%20with%20Application%20Load%20Balancer/Screenshot%202026-01-18%20194535.png)
 ### 3. EC2 Instance (devops-ec2)
 - **Name**: devops-ec2
 - **AMI**: Latest Ubuntu 22.04 LTS

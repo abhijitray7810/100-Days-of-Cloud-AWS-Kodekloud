@@ -216,7 +216,7 @@ Create `index.html`:
 ```
 
 ### Step 3: Build and Push Docker Image
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/b0a25da5ad6fd56fc1acf08d03113581cbbc1e34/Day%2038%3A%20Deploying%20Containerized%20Applications%20with%20Amazon%20ECS/Screenshot%202026-01-22%20192022.png)
 **Build the Docker image:**
 ```bash
 # Navigate to project directory
@@ -273,7 +273,7 @@ latest: digest: sha256:429545d95e693c2f8886a3f3458dc9b4147597a3a361e874c127b41ab
 ```
 
 ### Step 4: Create ECS Cluster
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/b0a25da5ad6fd56fc1acf08d03113581cbbc1e34/Day%2038%3A%20Deploying%20Containerized%20Applications%20with%20Amazon%20ECS/Screenshot%202026-01-22%20192650.png)
 **Using AWS Console:**
 1. Navigate to Amazon ECS
 2. Click "Create Cluster"

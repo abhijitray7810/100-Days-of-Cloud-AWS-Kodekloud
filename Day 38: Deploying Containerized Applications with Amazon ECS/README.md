@@ -322,7 +322,7 @@ aws cloudformation create-stack \
 ```
 
 ### Step 5: Create Task Definition
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0a8b70780dcb99ce1c983fdb9b5d882b73c8acfe/Day%2038%3A%20Deploying%20Containerized%20Applications%20with%20Amazon%20ECS/Screenshot%202026-01-22%20192706.png)
 **Using AWS Console:**
 1. Navigate to ECS → Task Definitions
 2. Click "Create new task definition"
@@ -383,7 +383,7 @@ aws ecs register-task-definition \
 ```
 
 ### Step 6: Create and Run ECS Service
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0a8b70780dcb99ce1c983fdb9b5d882b73c8acfe/Day%2038%3A%20Deploying%20Containerized%20Applications%20with%20Amazon%20ECS/Screenshot%202026-01-22%20192749.png)
 **Using AWS Console:**
 1. Navigate to your ECS cluster
 2. Click "Create" under Services
@@ -438,7 +438,7 @@ aws ecs create-service \
 ```
 
 ### Step 7: Verify Deployment
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0a8b70780dcb99ce1c983fdb9b5d882b73c8acfe/Day%2038%3A%20Deploying%20Containerized%20Applications%20with%20Amazon%20ECS/Screenshot%202026-01-22%20192830.png)
 **Get task public IP:**
 ```bash
 # List tasks
@@ -485,7 +485,7 @@ Welcome to KKE AWS cloud labs!
 ```
 
 ## 📊 Configuration Details
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0a8b70780dcb99ce1c983fdb9b5d882b73c8acfe/Day%2038%3A%20Deploying%20Containerized%20Applications%20with%20Amazon%20ECS/Screenshot%202026-01-22%20190403.png)
 ### ECR Repository Details
 - **Name:** devops-ecr
 - **URI:** 954973595150.dkr.ecr.us-east-1.amazonaws.com/devops-ecr
@@ -574,7 +574,6 @@ curl -I http://<PUBLIC_IP>
 ```
 
 ## 🔧 Troubleshooting
-![image]()
 ### Issue 1: Docker Login Fails
 ```bash
 # Error: Cannot perform an interactive login from a non TTY device

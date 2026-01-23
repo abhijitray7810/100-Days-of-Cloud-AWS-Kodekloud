@@ -1,5 +1,5 @@
 ## Day 119: AWS S3 Static Website Hosting
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/39a5094c9606c4e35b290f3bc8ffcac68b1896c8/Day%2039%3A%20Hosting%20a%20Static%20Website%20on%20AWS%20S3/Screenshot%202026-01-23%20193027.png)
 ### 📅 Date: January 23, 2026
 
 ---

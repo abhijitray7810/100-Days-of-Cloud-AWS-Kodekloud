@@ -220,7 +220,7 @@ Today's project reinforced the importance of understanding AWS permissions and p
 Static website hosting on S3 is an excellent, cost-effective solution for hosting simple websites, landing pages, or documentation portals. The integration with other AWS services like CloudFront and Route 53 makes it a powerful platform for scalable web hosting.
 
 ---
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/8e8ed915682ec98d8a0eb664b42325f7db7e2286/Day%2039%3A%20Hosting%20a%20Static%20Website%20on%20AWS%20S3/Screenshot%202026-01-23%20194505.png)
 ## 🎉 Next Steps
 
 Tomorrow (Day 120), I'll be exploring **[Next Topic]** to continue building my DevOps expertise!

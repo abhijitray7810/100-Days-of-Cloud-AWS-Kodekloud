@@ -123,7 +123,7 @@ http://datacenter-web-15817.s3-website-us-east-1.amazonaws.com
 ---
 
 ## 📝 Challenges Faced
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/2f37731a921515543d520b1380ea5a89c190e19b/Day%2039%3A%20Hosting%20a%20Static%20Website%20on%20AWS%20S3/Screenshot%202026-01-23%20194409.png)
 ### Initial Challenge:
 - Received "403 Forbidden" error when accessing the S3 website URL
 - **Root Cause**: Block public access settings were still enabled

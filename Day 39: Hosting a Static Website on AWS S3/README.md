@@ -148,7 +148,7 @@ http://datacenter-web-15817.s3-website-us-east-1.amazonaws.com
 ---
 
 ## 📸 Screenshots
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/2677239546bffccc309e5d739d67af91d005e689/Day%2039%3A%20Hosting%20a%20Static%20Website%20on%20AWS%20S3/Screenshot%202026-01-23%20194429.png)
 ### Terminal Commands
 ![Terminal showing AWS CLI commands](terminal-screenshot.png)
 

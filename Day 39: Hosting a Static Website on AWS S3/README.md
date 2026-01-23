@@ -157,7 +157,7 @@ http://datacenter-web-15817.s3-website-us-east-1.amazonaws.com
 
 ### Bucket Policy
 ![Applied bucket policy for public access](bucket-policy.png)
-
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/06c4ce01906924f7a793a12aa283eb670a6b7ed2/Day%2039%3A%20Hosting%20a%20Static%20Website%20on%20AWS%20S3/Screenshot%202026-01-23%20194439.png)
 ### Website Accessibility
 ![Live website showing 403 error before fix](website-403-error.png)
 

@@ -87,7 +87,7 @@ aws s3 website s3://datacenter-web-15817/ \
 ---
 
 ## 📊 Project Outcomes
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/6a8b890ef025fbdd45462b67cdec0e5d5f82dcb1/Day%2039%3A%20Hosting%20a%20Static%20Website%20on%20AWS%20S3/Screenshot%202026-01-23%20193228.png)
 ### ✅ Successfully Achieved:
 - Created S3 bucket with proper naming convention
 - Enabled static website hosting configuration

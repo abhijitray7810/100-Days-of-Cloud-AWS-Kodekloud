@@ -37,7 +37,7 @@ AWS S3 Bucket (datacenter-web-15817)
 ---
 
 ## 🛠️ Implementation Steps
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/8dcf13a82581875b6ae95a9c11a27de18a56dbd1/Day%2039%3A%20Hosting%20a%20Static%20Website%20on%20AWS%20S3/Screenshot%202026-01-23%20193156.png)
 ### Step 1: Create S3 Bucket
 ```bash
 aws s3 mb s3://datacenter-web-15817 --region us-east-1

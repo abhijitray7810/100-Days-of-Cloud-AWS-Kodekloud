@@ -1,7 +1,5 @@
-# DevOps 365 Days Challenge 🚀
-
 ## Day 119: AWS S3 Static Website Hosting
-
+![image]()
 ### 📅 Date: January 23, 2026
 
 ---
@@ -39,7 +37,7 @@ AWS S3 Bucket (datacenter-web-15817)
 ---
 
 ## 🛠️ Implementation Steps
-
+![image]()
 ### Step 1: Create S3 Bucket
 ```bash
 aws s3 mb s3://datacenter-web-15817 --region us-east-1
@@ -89,7 +87,7 @@ aws s3 website s3://datacenter-web-15817/ \
 ---
 
 ## 📊 Project Outcomes
-
+![image]()
 ### ✅ Successfully Achieved:
 - Created S3 bucket with proper naming convention
 - Enabled static website hosting configuration
@@ -125,7 +123,7 @@ http://datacenter-web-15817.s3-website-us-east-1.amazonaws.com
 ---
 
 ## 📝 Challenges Faced
-
+![image]()
 ### Initial Challenge:
 - Received "403 Forbidden" error when accessing the S3 website URL
 - **Root Cause**: Block public access settings were still enabled
@@ -150,7 +148,7 @@ http://datacenter-web-15817.s3-website-us-east-1.amazonaws.com
 ---
 
 ## 📸 Screenshots
-
+![image]()
 ### Terminal Commands
 ![Terminal showing AWS CLI commands](terminal-screenshot.png)
 

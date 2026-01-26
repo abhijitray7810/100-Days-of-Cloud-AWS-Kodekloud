@@ -1,0 +1,13 @@
+aws kms encrypt \
+    --key-id b9b68c57-1232-43d3-bceb-71b859da47c5 \
+    --plaintext fileb://SensitiveData.txt \
+    --output text \
+    --query CiphertextBlob | base64 \
+    --decode > ExampleEncryptedFile
+
+aws kms decrypt \
+    --ciphertext-blob fileb://EncryptedData.bin \
+    --key-id b9b68c57-1232-43d3-bceb-71b859da47c5 \
+    --output text \
+    --query Plaintext | base64 \
+    --decode > DecryptedData.txt

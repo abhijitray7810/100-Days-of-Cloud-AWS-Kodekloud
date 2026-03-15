@@ -186,7 +186,7 @@ lambda-function.lambda_handler
 ```
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0ba3641c0d1dab8999ba04d52f838efc9e997482/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190744.png)
 # 6️⃣ Lambda Function Code
 
 The Lambda function performs three main tasks:

@@ -105,7 +105,7 @@ Example policy:
 ```
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/60e2f19ed522f3dbf34872a61dcaa208c4ae7d55/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190632.png)
 # 2️⃣ Create Private S3 Bucket
 
 Create another bucket:

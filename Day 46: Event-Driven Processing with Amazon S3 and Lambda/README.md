@@ -122,7 +122,7 @@ Settings:
 This bucket will securely store files copied by the Lambda function.
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/ae960d7fb0910bfc4dd79cad1574fc3da0db90be/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190647.png)
 # 3️⃣ Create DynamoDB Table
 
 Create a DynamoDB table:

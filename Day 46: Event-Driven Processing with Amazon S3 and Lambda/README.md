@@ -238,7 +238,7 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps('File copied successfully')
     }
-```
+``` 
 
 
 ![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0a56dff5f9f531e4404259d9700c45d2b8954679/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190800.png)

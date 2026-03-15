@@ -166,7 +166,7 @@ This allows Lambda to:
 * Write logs to CloudWatch
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/3b5a6341ed8dd00d504f28ee09e4e7ccc63181a2/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190714.png)
 # 5️⃣ Create Lambda Function
 
 Create a Lambda function.

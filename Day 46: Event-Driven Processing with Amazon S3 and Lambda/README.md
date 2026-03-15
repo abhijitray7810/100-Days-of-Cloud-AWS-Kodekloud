@@ -185,7 +185,7 @@ Handler:
 lambda-function.lambda_handler
 ```
 
----
+
 ![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0ba3641c0d1dab8999ba04d52f838efc9e997482/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190744.png)
 # 6️⃣ Lambda Function Code
 
@@ -240,7 +240,7 @@ def lambda_handler(event, context):
     }
 ```
 
----
+
 ![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/0a56dff5f9f531e4404259d9700c45d2b8954679/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190800.png)
 # 7️⃣ Configure S3 Trigger
 

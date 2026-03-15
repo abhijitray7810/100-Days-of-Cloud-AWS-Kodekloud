@@ -141,7 +141,7 @@ This table will store logs containing:
 * Status of operation
 
 ---
-![image]()
+![image](https://github.com/abhijitray7810/100-Days-of-Cloud-AWS-Kodekloud/blob/13e88f9cbd08e8000e19791f022b34d68e98b0fc/Day%2046%3A%20Event-Driven%20Processing%20with%20Amazon%20S3%20and%20Lambda/Screenshot%202026-03-15%20190657.png)
 # 4️⃣ Create IAM Role
 
 Create an IAM Role for Lambda.

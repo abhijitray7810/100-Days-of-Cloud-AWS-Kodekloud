@@ -4,7 +4,7 @@ This project demonstrates the creation and deployment of an AWS Lambda function 
 
 ---
 
-## 📌 Objective
+## 📌 Objectivec
 
 - Create a Python-based AWS Lambda function
 - Package the function code as a ZIP file

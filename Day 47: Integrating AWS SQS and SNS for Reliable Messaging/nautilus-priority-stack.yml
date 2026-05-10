@@ -1,0 +1,157 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Priority Queuing using SNS, SQS and Lambda
+
+Resources:
+
+  HighPriorityQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: nautilus-High-Priority-Queue
+
+  LowPriorityQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: nautilus-Low-Priority-Queue
+
+  PriorityTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: nautilus-Priority-Queues-Topic
+
+  HighPrioritySubscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      TopicArn: !Ref PriorityTopic
+      Protocol: sqs
+      Endpoint: !GetAtt HighPriorityQueue.Arn
+      FilterPolicy:
+        priority:
+          - high
+      RawMessageDelivery: true
+
+  LowPrioritySubscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      TopicArn: !Ref PriorityTopic
+      Protocol: sqs
+      Endpoint: !GetAtt LowPriorityQueue.Arn
+      FilterPolicy:
+        priority:
+          - low
+      RawMessageDelivery: true
+
+  HighPriorityQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+        - !Ref HighPriorityQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: "*"
+            Action: sqs:SendMessage
+            Resource: !GetAtt HighPriorityQueue.Arn
+            Condition:
+              ArnEquals:
+                aws:SourceArn: !Ref PriorityTopic
+
+  LowPriorityQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+        - !Ref LowPriorityQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: "*"
+            Action: sqs:SendMessage
+            Resource: !GetAtt LowPriorityQueue.Arn
+            Condition:
+              ArnEquals:
+                aws:SourceArn: !Ref PriorityTopic
+
+  LambdaPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: lambda-sqs-sns-policy
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Action:
+              - sqs:ReceiveMessage
+              - sqs:DeleteMessage
+              - sqs:GetQueueAttributes
+              - sqs:GetQueueUrl
+            Resource:
+              - !GetAtt HighPriorityQueue.Arn
+              - !GetAtt LowPriorityQueue.Arn
+          - Effect: Allow
+            Action:
+              - sns:Publish
+            Resource: !Ref PriorityTopic
+
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: lambda_execution_role
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - !Ref LambdaPolicy
+
+  PriorityLambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: nautilus-priorities-queue-function
+      Runtime: python3.9
+      Handler: index.lambda_handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          high_priority_queue: !GetAtt HighPriorityQueue.QueueUrl
+          low_priority_queue: !GetAtt LowPriorityQueue.QueueUrl
+      Code:
+        ZipFile: |
+          import boto3
+          import os
+          sqs = boto3.client('sqs')
+          def delete_message(queue_url, receipt_handle, message):
+              response = sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=receipt_handle)
+              return "Message " + "'" + message + "'" + " deleted"
+          def poll_messages(queue_url):
+              QueueUrl = queue_url
+              response = sqs.receive_message(
+                  QueueUrl=QueueUrl,
+                  AttributeNames=[],
+                  MaxNumberOfMessages=1,
+                  MessageAttributeNames=['All'],
+                  WaitTimeSeconds=3
+              )
+              if "Messages" in response:
+                  receipt_handle = response['Messages'][0]['ReceiptHandle']
+                  message = response['Messages'][0]['Body']
+                  delete_response = delete_message(QueueUrl, receipt_handle, message)
+                  return delete_response
+              else:
+                  return "No more messages to poll"
+          def lambda_handler(event, context):
+              response = poll_messages(os.environ['high_priority_queue'])
+              if response == "No more messages to poll":
+                  response = poll_messages(os.environ['low_priority_queue'])
+              return response
+
+Outputs:
+  TopicArn:
+    Value: !Ref PriorityTopic
